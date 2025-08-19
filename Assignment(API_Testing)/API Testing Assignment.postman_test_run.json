@@ -1,0 +1,251 @@
+{
+	"id": "4e3488cf-1d06-45b2-851a-ee16dbd8d758",
+	"name": "API Testing Assignment",
+	"timestamp": "2025-08-16T23:57:01.797Z",
+	"collection_id": "47634774-c3c613d8-ee7f-46c4-a27b-ef276b89c37f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-08-16T23:56:58.312Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "a93d96c9-fe40-4111-9ecf-683302b9644f",
+			"name": "GET post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts/1",
+			"time": 390,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check Title is present": true,
+				"Deliberate failure": false
+			},
+			"testPassFailCounts": {
+				"Check Title is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Deliberate failure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				390
+			],
+			"allTests": [
+				{
+					"Check Title is present": true,
+					"Deliberate failure": false
+				}
+			]
+		},
+		{
+			"id": "43db3bff-5972-4511-ad99-e5a13e0e2b9c",
+			"name": "POST create post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts",
+			"time": 456,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				456
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "aa5088c5-c04b-40df-8a18-c1b563266b7f",
+			"name": "PUT update post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts/1",
+			"time": 413,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				413
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6d6e22aa-5825-43a1-a8ad-82956a82b13b",
+			"name": "PATCH update post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts/1",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ab7186a8-18aa-46a4-bc92-98f4f19a5f0f",
+			"name": "DELETE post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts/1",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "15fb5451-d7a0-4e45-9712-0d689c7bdc31",
+			"name": "GET created post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts/1",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"ID matches": true
+			},
+			"testPassFailCounts": {
+				"ID matches": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"ID matches": true
+				}
+			]
+		},
+		{
+			"id": "667f5d1b-c77c-4002-b2a2-bf708b848177",
+			"name": "PUT created post",
+			"url": "https://jsonplaceholder.typicode.com\n/posts/1",
+			"time": 484,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"ID matches": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"ID matches": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				484
+			],
+			"allTests": [
+				{
+					"ID matches": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2325,
+	"collection": {
+		"requests": [
+			{
+				"id": "a93d96c9-fe40-4111-9ecf-683302b9644f",
+				"method": "GET"
+			},
+			{
+				"id": "43db3bff-5972-4511-ad99-e5a13e0e2b9c",
+				"method": "POST"
+			},
+			{
+				"id": "aa5088c5-c04b-40df-8a18-c1b563266b7f",
+				"method": "PUT"
+			},
+			{
+				"id": "6d6e22aa-5825-43a1-a8ad-82956a82b13b",
+				"method": "PATCH"
+			},
+			{
+				"id": "ab7186a8-18aa-46a4-bc92-98f4f19a5f0f",
+				"method": "DELETE"
+			},
+			{
+				"id": "15fb5451-d7a0-4e45-9712-0d689c7bdc31",
+				"method": "GET"
+			},
+			{
+				"id": "667f5d1b-c77c-4002-b2a2-bf708b848177",
+				"method": "PUT"
+			}
+		]
+	}
+}
